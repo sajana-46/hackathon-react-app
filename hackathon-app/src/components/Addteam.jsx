@@ -35,7 +35,7 @@ const Addteam = () => {
 
     const readValue = () => {
         console.log(input);
-        axios.post("", input)
+        axios.post("http://localhost:3000/add-team", input)
             .then((response) => {
                 console.log(response.data);
                 alert("Team added successfully");
