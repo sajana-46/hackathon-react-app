@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import axios from 'axios'
+import Navigationbar from './Navigationbar'
 
 
 
@@ -51,6 +52,7 @@ const Addteam = () => {
     
   return (
     <div>
+        <Navigationbar/>
         
         
         
